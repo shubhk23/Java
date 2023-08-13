@@ -13,7 +13,7 @@ public class Objectclone implements cloneable {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-		Student18 obj1=new Student18(10,"Shubh");
+		Student1 obj1=new Student18(10,"Shubh");
 		Student18 obj2=(Student18).obj1.clone();
 		System.out.println(obj1.rollno + obj1.student);
 	    System.out.println(obj2.rollno+ obj2.student);	
